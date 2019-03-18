@@ -1,12 +1,12 @@
-#Project: Logs Analysis
+# Project: Logs Analysis
 This is a project from udacity full stack nano degree.
 Project for database with SQL and Python.
 
-##Environment
+## Environment
 Run under the a vagrant virtual machine from Udacity.
 see more from [Full Stack Web Developer Nanodegree program virtual machine](https://github.com/udacity/fullstack-nanodegree-vm)
 
-##How to Run
+## How to Run
 1. connect the database newsdata.sql
 2. install the python package `psycopg2` and `datetime`.
 3. locate the file directory
@@ -16,7 +16,7 @@ python Proj_LogsAnalysis.py
 ```
 5. see the result in [result](https://github.com/tianxing-li/Project_Logs-Analysis/blob/master/result)
 
-##About the view in the code
+## About the view in the code
 1. view `mostreads`
 This view listed **most popular articles with slug name**, and how popular they are.
 2. view `errorReport`
