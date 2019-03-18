@@ -5,6 +5,7 @@ Project for database with SQL and Python.
 
 ## Environment
 Run under the a vagrant virtual machine from Udacity.
+Download the source code in the vagrant directory from udacity, please
 see more from [Full Stack Web Developer Nanodegree program virtual machine](https://github.com/udacity/fullstack-nanodegree-vm)
 
 ## Installation
@@ -38,8 +39,8 @@ See more from [Full Stack Web Developer Nanodegree program virtual machine](http
 
 ## How to Run
 1. connect the database newsdata.sql, [Dowanload from here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
-2. unzip the package newsdata.zip and the source code in the same directory.
-3. locate the file directory
+2. unzip the package newsdata.zip and the source code in the same directory (/vagrant/Project_Logs-Analysis).
+3. locate the file directory, in the ssh `cd /vagrant` to find the shared files.
 4. using this command in the command line under the virtual machine mentioned above.
 ```
 python Proj_LogsAnalysis.py
